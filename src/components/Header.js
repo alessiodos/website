@@ -82,7 +82,7 @@ class Header extends Component {
             </div>
             
             <div className="header-item">
-            <a href="https://exchange.pancakeswap.finance/#/swap"><button><p>Buy</p></button></a>
+            <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c"><button><p>Buy</p></button></a>
             </div>
             </div>
             </div>
@@ -128,7 +128,7 @@ class Header extends Component {
             </div>
             
             <div className="header-mob-item">
-            <a href="https://exchange.pancakeswap.finance/#/swap"><button href="https://exchange.pancakeswap.finance/#/swap"><p>Buy</p></button>
+            <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c"><button><p>Buy</p></button>
             </a>
             </div>
             </div> 

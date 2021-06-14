@@ -16,8 +16,8 @@ class SectionIntro extends Component {
                 <div id="intro-title">
                     <p>
                         <span id="intro-titletxt-2">WELCOME TO </span>
-                        <span id="intro-titletxt-1">CTENA</span>
-                        <span id="intro-titletxt-3">, bitch.</span>
+                        <span id="intro-titletxt-1">CTENA.</span>
+                        <span id="intro-titletxt-3">(bitch!)</span>
                     </p>
                 </div>
                 <div id="intro-subtitle">
@@ -28,7 +28,7 @@ class SectionIntro extends Component {
                 </div>
                 <div id="intro-buttons">
                 <a href="https://t.me/catenaprotocol"><button>Telegram</button></a>
-                <a href="https://exchange.pancakeswap.finance/#/swap"><button>Buy</button></a>
+                <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c"><button>Buy</button></a>
                 </div>
        
 

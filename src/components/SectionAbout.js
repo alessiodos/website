@@ -96,13 +96,29 @@ class SectionAbout extends Component {
         ]
     }
 
+     copyToClipboard = (e) => {
+        const el = document.createElement('textarea');
+        el.value = "0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c";
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+        e.target.innerHTML=" Copied! :)";
+        setTimeout(() => {
+            e.target.innerHTML=" Copy Address";  
+        }, 3000);
+      };
+      
     render () {
         return (
             <div className="section-wrap" id="faq-wrap">
                 <p id="faq-title">ABOUT</p>
                 { this.state.content.map( (box, index) => (
                     <div key={index} className="question-box">
-                        <p className="question-q"><span className="question-q1">{box.emoji}</span><span className="question-q2">{box.name}</span></p>
+                        <p className="question-q"><span className="question-q1">{box.emoji}</span>
+                            <span className="question-q2">{box.name}</span>
+                            {(box.indications === "")? null : <span class="copy-address-button" onClick={e => this.copyToClipboard(e)}> Copy Address </span>}
+                        </p>
                         <div  className="question-boxForButtons">
                             {box.link.map( (link, index) => <a href={link} ><button key={index}> {box.linkTitle[index]}</button> </a>)}
                         </div>

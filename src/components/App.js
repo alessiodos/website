@@ -10,6 +10,7 @@ import { Component } from 'react';
 import Spinner from './Spinner';
 import Cookies from 'js-cookie';
 import Banner from './Banner';
+import AirDrop from './AirDrop';
 
 class App extends Component {
 
@@ -115,6 +116,7 @@ class App extends Component {
             stopc={this.stopCookie}
           />
           : null}
+          <AirDrop />
           </div>
         )
     }

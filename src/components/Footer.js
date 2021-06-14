@@ -5,6 +5,7 @@ import twitter from '../imgs/twitter.png'
 import github from '../imgs/github.png'
 import facebook from '../imgs/facebook.png'
 import telegram from '../imgs/telegram.png'
+import medium from '../imgs/medium.png'
 
 class Footer extends Component {
 
@@ -36,6 +37,7 @@ class Footer extends Component {
             <a href="https://github.com/catenaprotocol"><img src={github}></img></a>
             <a href="https://www.facebook.com/catenaprotocol"><img src={facebook}></img></a>
             <a href="https://t.me/catenaprotocol"><img src={telegram}></img></a>
+            <a href="https://catenaprotocol.medium.com/"><img src={medium}></img></a>
 
             </div>
             <div id="mail-wrap">

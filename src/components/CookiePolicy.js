@@ -40,8 +40,8 @@ class CookiePolicy extends Component {
              <p className="cookie-list-p">Strictly necessary (1)</p>    
 
             
-            <div class="cookie-list0">    
-                <div class="cookie-list1">    
+            <div className="cookie-list0">    
+                <div className="cookie-list1">    
              
          
             
@@ -72,8 +72,8 @@ class CookiePolicy extends Component {
             <p className="cookie-list-p">Statistics (2)</p>    
 
             
-            <div class="cookie-list0">    
-            <div class="cookie-list1">    
+            <div className="cookie-list0">    
+            <div className="cookie-list1">    
              <table className="cookie-table">     
             <thead>
             <tr>
