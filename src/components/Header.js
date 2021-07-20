@@ -65,25 +65,29 @@ class Header extends Component {
             </div>
           
             <div className="header-item">
-            <button onClick={ e => this.goTo('intro-wrap')}><p>Home</p></button>
-                
+            <button onClick={ e => this.goTo('intro-wrap')}><p>Home</p></button>                
             </div>
+
             <div className="header-item">
             <button onClick={ e => this.goTo('features-wrap-0')}><p>Features</p></button>
-
             </div>
+
             <div className="header-item">
             <button onClick={ e => this.goTo('info-wrap')}><p>Project Info</p></button>
-
             </div>
+            
             <div className="header-item">
             <button onClick={ e => this.goTo('faq-wrap')}><p>About</p></button>
-
             </div>
             
             <div className="header-item">
             <a href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8f4fc37bff97e6e7fd4355a5df76a486ac1e2e1c"><button><p>Buy</p></button></a>
             </div>
+
+            <div className="header-item">
+            <a href="https://catenaprotocol.medium.com/"><button><p>News</p></button></a>
+            </div>
+
             </div>
             </div>
             <div id="header-mob">
