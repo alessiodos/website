@@ -69,7 +69,7 @@ class Header extends Component {
                 
             </div>
             <div className="header-item">
-            <button onClick={ e => this.goTo('features-wrap-0')}><p>Features</p></button>
+            <button onClick={ e => this.goTo('features-wrap-0')}><p>Token Features</p></button>
 
             </div>
             <div className="header-item">
@@ -115,7 +115,7 @@ class Header extends Component {
                 
             </div>
             <div className="header-mob-item">
-            <button onClick={ e => this.goTo('features-wrap-0')}><p>Features</p></button>
+            <button onClick={ e => this.goTo('features-wrap-0')}><p>Token Features</p></button>
 
             </div>
             <div className="header-mob-item">
